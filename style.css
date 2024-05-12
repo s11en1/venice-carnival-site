@@ -9,3 +9,140 @@ a {
     text-decoration: none;
     color: rgba(0, 0, 0, 1);
 }
+
+/* Generic */
+
+.page-container {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+/* Header */
+
+header {
+    height: 150px;
+
+    gap: 50px;
+    margin-bottom: 50px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #F8F9FA;
+}
+
+.header__mask-icon {
+    width: 150px;
+    height: 150px;
+}
+
+.header__text {
+    font-family: 'Rye';
+    font-size: 60px;
+}
+
+/* Main */
+
+.main__section {
+    margin-bottom: 50px;
+}
+
+.main__section-header-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-bottom: 50px;
+}
+
+.main__section-header-text {
+    font-family: 'PT Serif';
+    font-size: 60px;
+}
+
+.main__section-header-divider {
+    transform: scale(0.75);
+}
+
+.main__section-text {
+    font-family: 'PT Serif';
+    font-size: 32px;
+
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+.main__section-image {
+    width: 1440px;
+    height: 800px;
+
+    border-radius: 20px;
+}
+
+.main__carnival-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+audio { transform: scale(1.5); }
+
+.main__galery-section { margin-bottom: 100px; }
+
+.main__slides-wrapper { margin-bottom: 50px; }
+
+.main__slider-slide {
+    display: none;
+
+    width: 1440px;
+    height: 800px;
+
+    border-radius: 20px;
+}
+
+.main__slider-slide.active { display: block; }
+
+.main__slider-markers-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 30px;
+}
+
+.main__slider-marker {
+    width: 30px;
+    height: 30px;
+
+    border-radius: 50%;
+    background-color: #B1B1B1;
+}
+
+.main__slider-marker.active { 
+    transform: scale(1.5);
+
+    background-color: #000000;
+}
+
+/* Footer */
+
+footer { 
+    background-color: #D9D9D9;
+
+    height: 150px;
+}
+
+.footer__wrapper {
+    height: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__text {
+    font-family: 'PT Serif';
+    font-size: 36px;
+}
