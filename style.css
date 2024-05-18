@@ -249,6 +249,35 @@ footer {
 	}
 	
 	.main__slider-marker.active { transform: scale(1.2); }
+
+	.main__feedback-section { margin-bottom: 80px; }
+
+	.main__form-input,
+	.main__form-button {
+		border-radius: 10px;
+	}
+
+	.main__feedback-form { padding: 24px; }
+
+	.main__form-input,
+	.main__form-button {
+		font-size: 20px;
+	}
+
+	.main__form-input {
+		padding: 10px 0 10px 20px;
+		margin-bottom: 20px;
+	}
+
+	.main__form-buttons-wrapper { gap: 20px; }
+
+	.main__form-button {
+		padding: 12px 0;
+
+		text-align: center;
+
+		width: 150px;
+	}
 	
 	/* Footer */
 	
@@ -319,6 +348,37 @@ footer {
 	}
 	
 	.main__slider-marker.active { transform: scale(1.5); }
+
+	.main__feedback-section { margin-bottom: 20px; }
+
+	.main__feedback-form { border-radius: 10px; }
+
+	.main__form-input,
+	.main__form-button {
+		border-radius: 5px;
+	}
+
+	.main__feedback-form { padding: 10px; }
+
+	.main__form-input,
+	.main__form-button {
+		font-size: 10px;
+	}
+
+	.main__form-input {
+		padding: 6px 0 6px 12px;
+		margin-bottom: 10px;
+	}
+
+	.main__form-buttons-wrapper { gap: 10px; }
+
+	.main__form-button {
+		padding: 6px 0;
+
+		text-align: center;
+
+		width: 75px;
+	}
 	
 	/* Footer */
 	
